@@ -25,7 +25,6 @@ public class HotDog implements Serializable{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    
     private String nombre;
 
     @Column(name = "tipo_salchicha")
@@ -35,5 +34,7 @@ public class HotDog implements Serializable{
     private String tipoPan;
 
     private String descripcion;
+
+    private String urlImage;
     
 }
